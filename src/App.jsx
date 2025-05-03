@@ -70,7 +70,7 @@ import './App.css'; // Import a CSS file for animations
 const { Meta } = Card;
 
 const App = () => {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState([]); 
   
   useEffect(() => {
     async function getData() {
